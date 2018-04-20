@@ -65,7 +65,8 @@ def densenet(images, num_classes=1001, is_training=False,
             # Put your code here.
             ##########################
 
-    return logits, end_points
+    #return logits, end_points
+    return None,None
 
 
 def bn_drp_scope(is_training=True, keep_prob=0.8):
