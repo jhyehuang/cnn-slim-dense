@@ -13,5 +13,7 @@ python -u train_image_classifier.py \
     --batch_size=32
 
 
+
+
  
     
